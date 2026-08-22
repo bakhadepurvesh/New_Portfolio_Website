@@ -10,7 +10,7 @@ import Technology from './components/Technology';
 import Project from './components/Project';
 import ContactForm from './components/ContactForm';
 import Certificate from './components/Certificate';
-import Experiences from './components/experiences';
+// import Experiences from './components/experiences';
 import Footer from './components/Footer';
 
 
