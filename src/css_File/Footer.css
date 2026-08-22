@@ -1,0 +1,174 @@
+.footer {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 45px 0;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1.4fr 1fr;
+    gap: 50px;
+}
+
+/* Footer Heading */
+
+.footer-box h2 {
+    font-size: 27px;
+    font-weight: 400;
+    margin: 0 0 20px;
+
+    display: inline-block;
+    padding-bottom: 6px;
+
+    border-bottom: 2px solid #536dfe;
+}
+
+/* About */
+
+.footer-box p {
+    max-width: 260px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    color: #eee;
+}
+
+/* Quick Links */
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #536dfe;
+    padding-left: 5px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    display: flex;
+    width: 100%;
+}
+
+.subscribe input {
+    width: 135px;
+    height: 46px;
+
+    padding: 0 12px;
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+}
+
+.subscribe button {
+    height: 46px;
+
+    padding: 0 22px;
+
+    border: none;
+    outline: none;
+
+    background: linear-gradient(
+        135deg,
+        #536dfe,
+        #8e44ec
+    );
+
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe button:hover {
+    opacity: 0.85;
+}
+
+/* Social Icons */
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #536dfe;
+    transform: translateY(-3px);
+}
+
+
+/* Tablet */
+
+@media (max-width: 900px) {
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        padding: 0 25px;
+        gap: 35px;
+    }
+
+    .footer-box {
+        text-align: center;
+    }
+
+    .footer-box p {
+        margin: auto;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+
+    .subscribe {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}

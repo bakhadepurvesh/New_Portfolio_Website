@@ -1,0 +1,127 @@
+.contact-session {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+/* Left Side */
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-left h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-left p {
+    margin: 18px 0;
+    line-height: 1.6;
+}
+
+.contact-left svg {
+    margin-right: 12px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+/* Right Side */
+
+.contact-right {
+    flex: 1;
+    max-width: 500px;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-right input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-right input:focus {
+    border-color: #08cbe0;
+}
+
+/* Button */
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #08cbe0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #079caf;
+}
+
+/* Success Message */
+
+.success-msg {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: green;
+}
+
+.form-note {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .contact-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-left h2 {
+        font-size: 30px;
+    }
+}
