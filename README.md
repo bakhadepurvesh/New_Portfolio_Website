@@ -41,7 +41,7 @@ Here are a few projects showcased in this portfolio:
 
 ## 📬 Connect With Me
 
-* **LinkedIn:** linkedin.com/in/purvesh-bakhade-7bab63291
+* **LinkedIn:** [linkedin.com/in/purvesh-bakhade-7bab63291](https://www.linkedin.com/in/purvesh-bakhade-7bab63291/)
 * **Email:** purveshbakhade78@gmail.com
 * **Portfolio Website:** https://newportfoliowebsitepurvesh.vercel.app/
 ---
