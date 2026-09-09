@@ -34,7 +34,7 @@ Here are a few projects showcased in this portfolio:
 2. **Project Two**
    * *Description:* my portfolio website.
    * *Tech Stack:* React, Tailwind CSS
-   * *link:* newportfoliowebsitepurvesh.vercel.app
+   * *link:* https://newportfoliowebsitepurvesh.vercel.app/
 
 *(Feel free to edit these project descriptions to match your actual work!)*
 ---
@@ -43,7 +43,7 @@ Here are a few projects showcased in this portfolio:
 
 * **LinkedIn:** linkedin.com/in/purvesh-bakhade-7bab63291
 * **Email:** purveshbakhade78@gmail.com
-* **Portfolio Website:** newportfoliowebsitepurvesh.vercel.app
+* **Portfolio Website:** https://newportfoliowebsitepurvesh.vercel.app/
 ---
 
 ⭐ *If you like this portfolio, feel free to give this repository a star!*
