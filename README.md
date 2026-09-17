@@ -3,9 +3,7 @@
 ### Welcome to my Portfolio Repository!
 
 This repository contains the source code for my personal responsive portfolio website, designed to showcase my projects, skills, and professional journey.
-
 ---
-
 ## 🚀 About Me
 
 * 💻 **Passionate about:** Building clean, responsive, and user-centric web applications.
