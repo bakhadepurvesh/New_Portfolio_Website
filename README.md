@@ -9,7 +9,7 @@ This repository contains the source code for my personal responsive portfolio we
 * 💻 **Passionate about:** Building clean, responsive, and user-centric web applications.
 * 🛠️ **Core Stack:** HTML5, CSS3, JavaScript, React, Tailwind CSS *(java full stack developer)*.
 * 🎯 **Goal:** Continuously learning modern technologies and building impactful digital solutions.
-
+  
 ---
 
 ## 🛠️ Built With
